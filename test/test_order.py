@@ -22,3 +22,10 @@ class TestOrder:
     def test_get_bill_total(self, order):
         order.make_order({"Tofu": 1, "Fries": 2})
         assert order.get_bill_total() == 6.40
+
+    def test_check_order(self, order):
+        order.make_order({"Tofu": 1, "Fries": 2})
+        assert order.check_order(Menu({"Tofu": 2.00, "Fries": 3.24})
+                                 ) == "Total is incorrect for the menu being checked against"
+        assert order.check_order(
+            Menu({"Tofu": 2.50, "Fries": 1.95})) == "Total is correct"
