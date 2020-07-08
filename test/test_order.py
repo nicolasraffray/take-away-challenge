@@ -18,3 +18,7 @@ class TestOrder:
         ''' Order of 1x Tofu and 2x Fries'''
         order.make_order({"Tofu": 1, "Fries": 2})
         assert order.order == {"Tofu": 1, "Fries": 2}
+
+    def test_get_bill_total(self, order):
+        order.make_order({"Tofu": 1, "Fries": 2})
+        assert order.get_bill_total() == 6.40
