@@ -13,3 +13,8 @@ class TestOrder:
 
     def test_inherits_menu(self, order):
         assert isinstance(order.menu, Menu)
+
+    def test_user_makes_an_order(self, order):
+        ''' Order of 1x Tofu and 2x Fries'''
+        order.make_order({"Tofu": 1, "Fries": 2})
+        assert order.order == {"Tofu": 1, "Fries": 2}
