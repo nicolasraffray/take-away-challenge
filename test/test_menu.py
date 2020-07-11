@@ -1,5 +1,5 @@
 import pytest
-from ..lib.menu import Menu
+from ..lib import Menu
 
 
 class TestMenu:
