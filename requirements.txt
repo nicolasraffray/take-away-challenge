@@ -66,7 +66,7 @@ diff-match-patch==20181111
 dill==0.3.1.1
 distributed==2.16.0
 dj-database-url==0.5.0
-Django==3.0.3
+Django==3.1.6
 django-heroku==0.3.1
 django-jasmine==0.5.1
 django-static-jquery==2.1.4
