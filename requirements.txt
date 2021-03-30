@@ -232,7 +232,7 @@ pydot==1.4.1
 pyflakes==2.1.1
 pygame==1.9.6
 pyglet==1.5.0
-Pygments==2.6.1
+Pygments==2.7.4
 PyHamcrest==2.0.2
 pylint==2.5.0
 pymongo==3.10.1
