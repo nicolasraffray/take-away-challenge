@@ -20,7 +20,7 @@ autobahn==20.3.1
 Automat==20.2.0
 autopep8==1.4.4
 avro-python3==1.9.2.1
-Babel==2.8.0
+Babel==2.9.1
 backcall==0.1.0
 backports.functools-lru-cache==1.6.1
 backports.shutil-get-terminal-size==1.0.0
