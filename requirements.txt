@@ -214,7 +214,7 @@ portend==2.6
 prometheus-client==0.7.1
 promise==2.3
 prompt-toolkit==3.0.4
-protobuf==3.11.4
+protobuf==3.18.3
 psutil==5.7.0
 psycopg2==2.8.4
 ptyprocess==0.6.0
